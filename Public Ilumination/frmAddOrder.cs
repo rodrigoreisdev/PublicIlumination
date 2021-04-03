@@ -23,7 +23,7 @@ namespace Public_Ilumination
 
         private void frmAddOrder_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnGerarOS_Click(object sender, EventArgs e)
@@ -68,6 +68,19 @@ namespace Public_Ilumination
                 
                 e.Handled = true;
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if((txtNome.TextLength > 0) && (txtData.TextLength == 10) && (txtEnd.TextLength > 0) && (txtPoste.TextLength > 0) && (txtDefeitos.TextLength > 0))
+            {
+                btnGerarOS.Enabled = true;
+            }
+            else
+            {
+                btnGerarOS.Enabled = false;
+            }
+
         }
     }
 }

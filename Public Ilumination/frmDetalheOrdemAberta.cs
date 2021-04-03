@@ -43,7 +43,6 @@ namespace Public_Ilumination
         {
             if(rbCheck.Checked==true)
             {
-              
                 ordemServico.DataFechamento = txtDataFechamento.Text;
                 ordemServico.Servicos = txtServicos.Text.Split(',');
                 ordemServico.Status = "Fechada";
@@ -58,6 +57,11 @@ namespace Public_Ilumination
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void rbCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
         }
     }
 }

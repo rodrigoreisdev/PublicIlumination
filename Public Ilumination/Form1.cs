@@ -33,18 +33,33 @@ namespace Public_Ilumination
         private void consultarOrdensAbertasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmConsultarOrdemAberta frm = new frmConsultarOrdemAberta(listaOS);
-            frm.Show();
+            AbrirForm(frm, panel1);
         }
 
         private void abrirOrdemDeServiçoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAddOrder frm = new frmAddOrder(listaOS);
-            frm.Show();
+            AbrirForm(frm, panel1);
         }
 
         private void fecharOrdensToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmConsultarOrdemFechada frm = new frmConsultarOrdemFechada(listaOS);
+            AbrirForm(frm, panel1);
+        }
+
+        static void AbrirForm(Form frm, Panel panel1)
+        {
+            panel1.Controls.Clear();
+            frm.TopLevel = false;
+            panel1.Controls.Add(frm);
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Show();
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSobre frm = new frmSobre();
             frm.Show();
         }
     }

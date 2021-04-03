@@ -24,16 +24,16 @@ namespace Public_Ilumination
         private void frmConsultarOrdemFechada_Load(object sender, EventArgs e)
         {
             CarregarLista();
+            if (dgOrdens.Rows.Count == 0)
+            {
+                btnDetalhes.Enabled = false;
+            }
         }
 
         private void btnDetalhes_Click(object sender, EventArgs e)
         {
-            if (listaOS != null)
-            {
-                frmDetalheOrdemFechada frm = new frmDetalheOrdemFechada(id, listaOS);
-                frm.Show();
-
-            }
+            frmDetalheOrdemFechada frm = new frmDetalheOrdemFechada(id, listaOS);
+            frm.Show();
         }
         private void dgOrdens_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
@@ -42,20 +42,16 @@ namespace Public_Ilumination
 
         void CarregarLista()
         {
-            if (listaOS != null)
-            {
-                dgOrdens.DataSource = listaOS.FindAll(i => i.Status == "Fechada");
-                dgOrdens.Columns[0].Visible = false;
-                dgOrdens.Columns["Nome"].HeaderText = "Reclamante";
-                dgOrdens.Columns["DataAbertura"].HeaderText = "Data de abertura";
-                dgOrdens.Columns["DataFechamento"].HeaderText = "Data de fechamento";
-                dgOrdens.Columns["Poste"].HeaderText = "Nº poste";
-                dgOrdens.Columns["Endereco"].HeaderText = "Endereço";
-                dgOrdens.ReadOnly = true;
-                dgOrdens.MultiSelect = false;
-                dgOrdens.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-
-            }
+            dgOrdens.DataSource = listaOS.FindAll(i => i.Status == "Fechada");
+            dgOrdens.Columns[0].Visible = false;
+            dgOrdens.Columns["Nome"].HeaderText = "Reclamante";
+            dgOrdens.Columns["DataAbertura"].HeaderText = "Data de abertura";
+            dgOrdens.Columns["DataFechamento"].HeaderText = "Data de fechamento";
+            dgOrdens.Columns["Poste"].HeaderText = "Nº poste";
+            dgOrdens.Columns["Endereco"].HeaderText = "Endereço";
+            dgOrdens.ReadOnly = true;
+            dgOrdens.MultiSelect = false;
+            dgOrdens.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
     }

@@ -33,6 +33,8 @@ namespace Public_Ilumination
             this.abrirOrdemDeServiçoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarOrdensAbertasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fecharOrdensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +45,8 @@ namespace Public_Ilumination
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abrirOrdemDeServiçoToolStripMenuItem,
             this.consultarOrdensAbertasToolStripMenuItem,
-            this.fecharOrdensToolStripMenuItem});
+            this.fecharOrdensToolStripMenuItem,
+            this.sobreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1313, 33);
@@ -72,11 +75,26 @@ namespace Public_Ilumination
             this.fecharOrdensToolStripMenuItem.Text = "Consultar Ordens Fechadas";
             this.fecharOrdensToolStripMenuItem.Click += new System.EventHandler(this.fecharOrdensToolStripMenuItem_Click);
             // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(75, 29);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(45, 68);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1209, 920);
+            this.panel1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1313, 1019);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -95,6 +113,8 @@ namespace Public_Ilumination
         private System.Windows.Forms.ToolStripMenuItem abrirOrdemDeServiçoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultarOrdensAbertasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fecharOrdensToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
     }
 }
 

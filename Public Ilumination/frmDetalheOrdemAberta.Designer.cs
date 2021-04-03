@@ -173,6 +173,7 @@ namespace Public_Ilumination
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(291, 767);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 41);
@@ -203,7 +204,7 @@ namespace Public_Ilumination
             // 
             // txtDataFechamento
             // 
-            this.txtDataFechamento.Location = new System.Drawing.Point(248, 704);
+            this.txtDataFechamento.Location = new System.Drawing.Point(271, 704);
             this.txtDataFechamento.Mask = "00/00/0000";
             this.txtDataFechamento.Name = "txtDataFechamento";
             this.txtDataFechamento.Size = new System.Drawing.Size(110, 26);
@@ -221,12 +222,13 @@ namespace Public_Ilumination
             this.rbCheck.TabStop = true;
             this.rbCheck.Text = "Fechar Ordem de Serviço";
             this.rbCheck.UseVisualStyleBackColor = true;
+            this.rbCheck.CheckedChanged += new System.EventHandler(this.rbCheck_CheckedChanged);
             // 
             // frmDetalheOrdemAberta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 878);
+            this.ClientSize = new System.Drawing.Size(809, 845);
             this.Controls.Add(this.rbCheck);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

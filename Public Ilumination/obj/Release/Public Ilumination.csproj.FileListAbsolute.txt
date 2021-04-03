@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\bin\Release\Public Ilumination.exe.config
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\bin\Release\Public Ilumination.exe
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\bin\Release\Public Ilumination.pdb
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public Ilumination.csprojAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmAddOrder.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.Form1.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmConsultarOrdemAberta.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmConsultarOrdemFechada.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmDetalheOrdemAberta.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmDetalheOrdemFechada.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.frmSobre.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public_Ilumination.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public Ilumination.csproj.GenerateResource.cache
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public Ilumination.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public Ilumination.exe
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Release\Public Ilumination.pdb

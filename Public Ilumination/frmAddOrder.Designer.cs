@@ -29,6 +29,7 @@ namespace Public_Ilumination
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@ namespace Public_Ilumination
             this.txtDefeitos = new System.Windows.Forms.RichTextBox();
             this.btnGerarOS = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -145,6 +147,7 @@ namespace Public_Ilumination
             // 
             // btnGerarOS
             // 
+            this.btnGerarOS.Enabled = false;
             this.btnGerarOS.Location = new System.Drawing.Point(80, 624);
             this.btnGerarOS.Name = "btnGerarOS";
             this.btnGerarOS.Size = new System.Drawing.Size(169, 52);
@@ -162,6 +165,11 @@ namespace Public_Ilumination
             this.btnClear.Text = "Limpar";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmAddOrder
             // 
@@ -204,5 +212,6 @@ namespace Public_Ilumination
         private System.Windows.Forms.RichTextBox txtDefeitos;
         private System.Windows.Forms.Button btnGerarOS;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Timer timer1;
     }
 }

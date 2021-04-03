@@ -46,7 +46,7 @@ namespace Public_Ilumination
             this.dgOrdens.ReadOnly = true;
             this.dgOrdens.RowHeadersWidth = 62;
             this.dgOrdens.RowTemplate.Height = 28;
-            this.dgOrdens.Size = new System.Drawing.Size(610, 273);
+            this.dgOrdens.Size = new System.Drawing.Size(1008, 273);
             this.dgOrdens.TabIndex = 10;
             this.dgOrdens.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgOrdens_CellEnter);
             // 
@@ -54,7 +54,7 @@ namespace Public_Ilumination
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(189, 35);
+            this.label1.Location = new System.Drawing.Point(380, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(407, 32);
             this.label1.TabIndex = 9;
@@ -62,7 +62,7 @@ namespace Public_Ilumination
             // 
             // btnDetalhes
             // 
-            this.btnDetalhes.Location = new System.Drawing.Point(272, 442);
+            this.btnDetalhes.Location = new System.Drawing.Point(470, 434);
             this.btnDetalhes.Name = "btnDetalhes";
             this.btnDetalhes.Size = new System.Drawing.Size(207, 41);
             this.btnDetalhes.TabIndex = 12;
@@ -74,7 +74,7 @@ namespace Public_Ilumination
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(268, 117);
+            this.label2.Location = new System.Drawing.Point(86, 117);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(228, 20);
             this.label2.TabIndex = 11;
@@ -84,7 +84,7 @@ namespace Public_Ilumination
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 574);
+            this.ClientSize = new System.Drawing.Size(1335, 574);
             this.Controls.Add(this.btnDetalhes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgOrdens);

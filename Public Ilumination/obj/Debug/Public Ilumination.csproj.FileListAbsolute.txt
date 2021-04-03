@@ -13,3 +13,4 @@ C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Debug\Public I
 C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Debug\Public Ilumination.csproj.CoreCompileInputs.cache
 C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Debug\Public Ilumination.exe
 C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Debug\Public Ilumination.pdb
+C:\Users\Rodrigo\Desktop\PublicIlumination\Public Ilumination\obj\Debug\Public_Ilumination.frmSobre.resources
